@@ -4,13 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node api/server.js"
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node api/server.js",
+    "client": "cd client && npm start"
   },
   "author": "Recep Batuhan Dikmen",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
