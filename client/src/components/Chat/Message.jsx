@@ -86,7 +86,7 @@ function Message({ prevMessage, message, isSenderMe, isGroupChat }) {
             >
               <Box
                 backgroundColor="rgb(101,103,107)"
-                borderRadius="full"
+                borderRadius="5px"
                 p={2}
                 maxWidth={700}
               >
@@ -115,7 +115,7 @@ function Message({ prevMessage, message, isSenderMe, isGroupChat }) {
           >
             <Box
               backgroundColor="rgb(101,103,107)"
-              borderRadius="full"
+              borderRadius="5px"
               p={2}
               maxWidth={700}
             >
