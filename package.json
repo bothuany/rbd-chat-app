@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon api/server.js"
+    "start": "node server.js"
   },
   "author": "Recep Batuhan Dikmen",
   "license": "ISC",
