@@ -53,7 +53,10 @@ function Chat({ chat }) {
     }
   }
   function getSenderName(message) {
-    if (message.sender._id === user._id) return "You";
+    if (user) {
+      if (message.sender._id === user._id) return "You";
+    }
+
     return message.sender.username;
   }
 
