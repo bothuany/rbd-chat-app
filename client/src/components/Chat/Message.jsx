@@ -42,7 +42,7 @@ function Message({ prevMessage, message, isSenderMe, isGroupChat }) {
         >
           <Box
             backgroundColor="rgb(0,132,255)"
-            borderRadius="full"
+            borderRadius="5px"
             p={2}
             maxWidth={700}
           >
