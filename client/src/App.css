@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+
+* {
+    word-break: break-all;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(26, 32, 44);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0)
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(49, 130, 206);
+    border-radius: 10px;
+}
