@@ -62,6 +62,11 @@ function SendMessageForm({ messages, setMessages, socket, socketConnected }) {
   }, [user]);
   const sendMessage = async () => {
     socket.emit("stop typing", activeChat._id);
+
+    let messageToSend = message.trim();
+    if (messageToSend.length === 0) {
+      return;
+    }
     try {
       if (!user) return;
       const config = {
@@ -71,7 +76,7 @@ function SendMessageForm({ messages, setMessages, socket, socketConnected }) {
       };
       const { data } = await axios.post(
         "/api/message",
-        { content: message, chatId: activeChat._id },
+        { content: messageToSend, chatId: activeChat._id },
         config
       );
       socket.emit("new message", data);
