@@ -1,4 +1,4 @@
-# rbd-chat-app
+# RBD Chat App
 MERN Chat Application
 
 Live: https://rbd-chat-app.herokuapp.com/
