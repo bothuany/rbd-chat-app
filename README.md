@@ -37,6 +37,12 @@ Live: https://rbd-chat-app.herokuapp.com/
       <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> 
     </li>
   </ul>
+  <h3 align="left">Screenshots:</h3>
+  
+  
+<img src="https://github.com/rbdikmen/rbd-chat-app/blob/main/screenshots/ss1.png"/>
+<img src="https://github.com/rbdikmen/rbd-chat-app/blob/main/screenshots/ss2.png"/>
+<img src="https://github.com/rbdikmen/rbd-chat-app/blob/main/screenshots/ss3.png"/>
 
   
 
