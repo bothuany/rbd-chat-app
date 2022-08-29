@@ -36,6 +36,11 @@ Live: https://rbd-chat-app.herokuapp.com/
       <b>Heroku &nbsp</b>
       <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> 
     </li>
+ <li>
+      <b>Chakra.ui &nbsp</b>
+      <a href="https://chakra-ui.com/" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/54212428?s=200&v=4" alt="chakraui" width="40" height="40"/> </a> 
+    </li>
+
   </ul>
   <h3 align="left">Screenshots:</h3>
   
